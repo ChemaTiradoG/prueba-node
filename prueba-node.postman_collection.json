@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "d20ec4eb-3724-4418-8709-e8e04c153cbe",
+		"name": "prueba-node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12444161"
+	},
+	"item": [
+		{
+			"name": "http://rutaback/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rutaback/mutation/{\"dna\":[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]}",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/mutation/{\"dna\":[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]}",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mutation",
+						"{\"dna\":[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rutaback/test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/test",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rutaback/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/stats",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rutaback/ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/ping",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rutaback/truncate",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-54-193-105-3.us-west-1.compute.amazonaws.com/truncate",
+					"protocol": "http",
+					"host": [
+						"ec2-54-193-105-3",
+						"us-west-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"truncate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
